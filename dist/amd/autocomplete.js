@@ -8,6 +8,8 @@ define(
 
       tagName: 'ic-autocomplete',
 
+      showToggle: false,
+
       attributeBindings: [
         'is-open'
       ],

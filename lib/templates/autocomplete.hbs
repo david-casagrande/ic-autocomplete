@@ -4,9 +4,10 @@
   placeholder=placeholder
 }}
 
-{{#ic-autocomplete-toggle}}▾{{/ic-autocomplete-toggle}}
+{{#if showToggle}}
+  {{#ic-autocomplete-toggle}}▾{{/ic-autocomplete-toggle}}
+{{/if}}
 
 {{#ic-autocomplete-list}}
   {{yield}}
 {{/ic-autocomplete-list}}
-

@@ -5,6 +5,8 @@ exports["default"] = Ember.Component.extend({
 
   tagName: 'ic-autocomplete',
 
+  showToggle: false,
+
   attributeBindings: [
     'is-open'
   ],
